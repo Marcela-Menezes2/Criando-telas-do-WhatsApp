@@ -15,11 +15,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let window = UIWindow(windowScene: windowScene)
-        let vc: TabBarController = TabBarController()
-        window.rootViewController = vc
-        window.makeKeyAndVisible()
-        self.window = window
+        window = UIWindow(windowScene: windowScene)
+        self.window?.makeKeyAndVisible()
+        
+        let navigationController = UINavigationController()
+        self.window?.rootViewController = navigationController
+        
+//        let coordinator = LoginCoordinator(navigationController: navigationController)
+        
+        let coordinator = TabBarCoordinator(navigationController: navigationController, coordinatorViewModel: CoordinatorViewModel())
+
+        coordinator.start()
+    }
+//
+//        let window = UIWindow(windowScene: windowScene)
+//        let vc: TabBarController = TabBarController()
+//        window.rootViewController = vc
+//        window.makeKeyAndVisible()
+//        self.window = window
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -51,5 +64,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
-}
+
 

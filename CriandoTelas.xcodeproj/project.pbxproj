@@ -7,34 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1088982841184400AAE973 /* AddconfigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1088972841184400AAE973 /* AddconfigureView.swift */; };
+		AD10889B2841194100AAE973 /* AddConfigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD10889A2841194100AAE973 /* AddConfigureViewController.swift */; };
+		AD10889D28411B4700AAE973 /* AddConfigureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD10889C28411B4700AAE973 /* AddConfigureCoordinator.swift */; };
+		AD1088A12841572600AAE973 /* ConectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1088A02841572600AAE973 /* ConectView.swift */; };
+		AD1088A52841578900AAE973 /* ConectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1088A42841578900AAE973 /* ConectViewController.swift */; };
+		AD1088A728415A6600AAE973 /* ConectCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1088A628415A6600AAE973 /* ConectCoordinator.swift */; };
 		AD1C7FF727EB4945003526C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C7FF627EB4945003526C8 /* AppDelegate.swift */; };
 		AD1C7FF927EB4945003526C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C7FF827EB4945003526C8 /* SceneDelegate.swift */; };
-		AD1C7FFB27EB4945003526C8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C7FFA27EB4945003526C8 /* TabBarController.swift */; };
+		AD1C7FFB27EB4945003526C8 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C7FFA27EB4945003526C8 /* HomeTabBarController.swift */; };
 		AD1C800027EB4947003526C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1C7FFF27EB4947003526C8 /* Assets.xcassets */; };
 		AD1C800327EB4947003526C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1C800127EB4947003526C8 /* LaunchScreen.storyboard */; };
 		AD1C800E27EB4948003526C8 /* CriandoTelasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C800D27EB4948003526C8 /* CriandoTelasTests.swift */; };
 		AD1C801827EB4948003526C8 /* CriandoTelasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C801727EB4948003526C8 /* CriandoTelasUITests.swift */; };
 		AD1C801A27EB4948003526C8 /* CriandoTelasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C801927EB4948003526C8 /* CriandoTelasUITestsLaunchTests.swift */; };
-		AD1C802727EB4FBF003526C8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C802627EB4FBF003526C8 /* ColorExtension.swift */; };
-		AD1C802927EB55B9003526C8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1C802827EB55B9003526C8 /* Colors.swift */; };
+		AD20267E283FCACC008844EB /* ViewContollerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20267D283FCACC008844EB /* ViewContollerDefault.swift */; };
+		AD202680283FEFFA008844EB /* AddStatusCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20267F283FEFFA008844EB /* AddStatusCoordinator.swift */; };
+		AD202683283FF052008844EB /* AddStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD202682283FF052008844EB /* AddStatusViewController.swift */; };
+		AD202686283FF0CB008844EB /* AddStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD202685283FF0CB008844EB /* AddStatusView.swift */; };
+		AD2CF0F4283D4FC900834F83 /* ConstantsColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2CF0F3283D4FC900834F83 /* ConstantsColor.swift */; };
 		AD332E9E27FF1B3700E5E4C7 /* ChamadasCustomTableViemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332E9D27FF1B3700E5E4C7 /* ChamadasCustomTableViemCell.swift */; };
 		AD332EA027FF25D800E5E4C7 /* ChamadaTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332E9F27FF25D800E5E4C7 /* ChamadaTableView.swift */; };
-		AD332EA227FF7E4100E5E4C7 /* ConversasScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332EA127FF7E4100E5E4C7 /* ConversasScreen.swift */; };
-		AD332EA427FF82EB00E5E4C7 /* ConversasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332EA327FF82EB00E5E4C7 /* ConversasVC.swift */; };
-		AD37974C28170F41004420E3 /* CameraScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37974B28170F41004420E3 /* CameraScreen.swift */; };
-		AD37974E281710C1004420E3 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37974D281710C1004420E3 /* CameraVC.swift */; };
+		AD332EA227FF7E4100E5E4C7 /* ConversasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332EA127FF7E4100E5E4C7 /* ConversasView.swift */; };
+		AD332EA427FF82EB00E5E4C7 /* ConversasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD332EA327FF82EB00E5E4C7 /* ConversasViewController.swift */; };
+		AD37974C28170F41004420E3 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37974B28170F41004420E3 /* CameraView.swift */; };
+		AD37974E281710C1004420E3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37974D281710C1004420E3 /* CameraViewController.swift */; };
 		AD379752281730FC004420E3 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD379751281730FC004420E3 /* AvatarCell.swift */; };
 		AD3797542817313C004420E3 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3797532817313B004420E3 /* StoriesViewController.swift */; };
 		AD6AD7E928009CBB00E84A3D /* ConversasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6AD7E828009CBB00E84A3D /* ConversasTableViewCell.swift */; };
 		AD6AD7EB28009EC400E84A3D /* ConversasTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6AD7EA28009EC400E84A3D /* ConversasTableView.swift */; };
-		AD6AD7ED2800AD2100E84A3D /* ConfigureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6AD7EC2800AD2100E84A3D /* ConfigureScreen.swift */; };
-		AD6AD7EF2800AE6C00E84A3D /* ConfigureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6AD7EE2800AE6C00E84A3D /* ConfigureVC.swift */; };
-		AD89F20027FE0435000A2CE4 /* ChamadasScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89F1FF27FE0435000A2CE4 /* ChamadasScreen.swift */; };
-		AD89F20227FE12CE000A2CE4 /* ChamadasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89F20127FE12CE000A2CE4 /* ChamadasVC.swift */; };
-		ADEE40BA27FB40D2007E70BC /* StatusScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE40B927FB40D2007E70BC /* StatusScreen.swift */; };
-		ADEE40BD27FB4322007E70BC /* StatusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE40BC27FB4322007E70BC /* StatusVC.swift */; };
+		AD6AD7ED2800AD2100E84A3D /* ConfigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6AD7EC2800AD2100E84A3D /* ConfigureView.swift */; };
+		AD6AD7EF2800AE6C00E84A3D /* ConfigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6AD7EE2800AE6C00E84A3D /* ConfigureViewController.swift */; };
+		AD89F20027FE0435000A2CE4 /* ChamadasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89F1FF27FE0435000A2CE4 /* ChamadasView.swift */; };
+		AD89F20227FE12CE000A2CE4 /* ChamadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD89F20127FE12CE000A2CE4 /* ChamadasViewController.swift */; };
+		ADCCD5CC283EA0A600B00118 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5CB283EA0A600B00118 /* ButtonDefault.swift */; };
+		ADCCD5D0283EA5EA00B00118 /* ConversasCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5CF283EA5EA00B00118 /* ConversasCoordinator.swift */; };
+		ADCCD5D2283EA8A100B00118 /* CoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5D1283EA8A100B00118 /* CoordinatorViewModel.swift */; };
+		ADCCD5D4283EAB4100B00118 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5D3283EAB4100B00118 /* TabBarCoordinator.swift */; };
+		ADCCD5D6283EAB6900B00118 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5D5283EAB6900B00118 /* Coordinator.swift */; };
+		ADCCD5D8283EABF500B00118 /* AddConversasCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5D7283EABF500B00118 /* AddConversasCoordinator.swift */; };
+		ADCCD5DA283EB6E400B00118 /* StatusCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5D9283EB6E400B00118 /* StatusCoordinator.swift */; };
+		ADCCD5DC283EBB2100B00118 /* ChamadasCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5DB283EBB2100B00118 /* ChamadasCoordinator.swift */; };
+		ADCCD5DE283EBC1500B00118 /* CameraCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5DD283EBC1500B00118 /* CameraCoordinator.swift */; };
+		ADCCD5E0283EBF3000B00118 /* ConfigureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5DF283EBF3000B00118 /* ConfigureCoordinator.swift */; };
+		ADCCD5E2283EC43400B00118 /* AddConversasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5E1283EC43400B00118 /* AddConversasView.swift */; };
+		ADCCD5E4283EC52000B00118 /* AddConversasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCD5E3283EC52000B00118 /* AddConversasViewController.swift */; };
+		ADEE40BA27FB40D2007E70BC /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE40B927FB40D2007E70BC /* StatusView.swift */; };
+		ADEE40BD27FB4322007E70BC /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE40BC27FB4322007E70BC /* StatusViewController.swift */; };
 		ADEE40C327FB681C007E70BC /* StatusTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE40C227FB681C007E70BC /* StatusTableView.swift */; };
 		ADEE40C627FB70E1007E70BC /* CustomStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE40C527FB70E1007E70BC /* CustomStatusTableViewCell.swift */; };
+		ADFB0A452864D91700DE71EE /* StatusTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFB0A442864D91700DE71EE /* StatusTableViewExtension.swift */; };
+		ADFB0A472864D99E00DE71EE /* ChamadaTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFB0A462864D99E00DE71EE /* ChamadaTableViewExtension.swift */; };
+		ADFB0A492864D9E900DE71EE /* ConversasTableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFB0A482864D9E900DE71EE /* ConversasTableViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +79,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD1088972841184400AAE973 /* AddconfigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddconfigureView.swift; sourceTree = "<group>"; };
+		AD10889A2841194100AAE973 /* AddConfigureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConfigureViewController.swift; sourceTree = "<group>"; };
+		AD10889C28411B4700AAE973 /* AddConfigureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConfigureCoordinator.swift; sourceTree = "<group>"; };
+		AD1088A02841572600AAE973 /* ConectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectView.swift; sourceTree = "<group>"; };
+		AD1088A42841578900AAE973 /* ConectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectViewController.swift; sourceTree = "<group>"; };
+		AD1088A628415A6600AAE973 /* ConectCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectCoordinator.swift; sourceTree = "<group>"; };
 		AD1C7FF327EB4945003526C8 /* CriandoTelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CriandoTelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1C7FF627EB4945003526C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD1C7FF827EB4945003526C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD1C7FFA27EB4945003526C8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AD1C7FFA27EB4945003526C8 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		AD1C7FFF27EB4947003526C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD1C800227EB4947003526C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD1C800427EB4947003526C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,26 +97,44 @@
 		AD1C801327EB4948003526C8 /* CriandoTelasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriandoTelasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1C801727EB4948003526C8 /* CriandoTelasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriandoTelasUITests.swift; sourceTree = "<group>"; };
 		AD1C801927EB4948003526C8 /* CriandoTelasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriandoTelasUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AD1C802627EB4FBF003526C8 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		AD1C802827EB55B9003526C8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AD20267D283FCACC008844EB /* ViewContollerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContollerDefault.swift; sourceTree = "<group>"; };
+		AD20267F283FEFFA008844EB /* AddStatusCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStatusCoordinator.swift; sourceTree = "<group>"; };
+		AD202682283FF052008844EB /* AddStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStatusViewController.swift; sourceTree = "<group>"; };
+		AD202685283FF0CB008844EB /* AddStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStatusView.swift; sourceTree = "<group>"; };
+		AD2CF0F3283D4FC900834F83 /* ConstantsColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsColor.swift; sourceTree = "<group>"; };
 		AD332E9D27FF1B3700E5E4C7 /* ChamadasCustomTableViemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadasCustomTableViemCell.swift; sourceTree = "<group>"; };
 		AD332E9F27FF25D800E5E4C7 /* ChamadaTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadaTableView.swift; sourceTree = "<group>"; };
-		AD332EA127FF7E4100E5E4C7 /* ConversasScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasScreen.swift; sourceTree = "<group>"; };
-		AD332EA327FF82EB00E5E4C7 /* ConversasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasVC.swift; sourceTree = "<group>"; };
-		AD37974B28170F41004420E3 /* CameraScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScreen.swift; sourceTree = "<group>"; };
-		AD37974D281710C1004420E3 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		AD332EA127FF7E4100E5E4C7 /* ConversasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasView.swift; sourceTree = "<group>"; };
+		AD332EA327FF82EB00E5E4C7 /* ConversasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasViewController.swift; sourceTree = "<group>"; };
+		AD37974B28170F41004420E3 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		AD37974D281710C1004420E3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		AD379751281730FC004420E3 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		AD3797532817313B004420E3 /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
 		AD6AD7E828009CBB00E84A3D /* ConversasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasTableViewCell.swift; sourceTree = "<group>"; };
 		AD6AD7EA28009EC400E84A3D /* ConversasTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasTableView.swift; sourceTree = "<group>"; };
-		AD6AD7EC2800AD2100E84A3D /* ConfigureScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureScreen.swift; sourceTree = "<group>"; };
-		AD6AD7EE2800AE6C00E84A3D /* ConfigureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureVC.swift; sourceTree = "<group>"; };
-		AD89F1FF27FE0435000A2CE4 /* ChamadasScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadasScreen.swift; sourceTree = "<group>"; };
-		AD89F20127FE12CE000A2CE4 /* ChamadasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadasVC.swift; sourceTree = "<group>"; };
-		ADEE40B927FB40D2007E70BC /* StatusScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusScreen.swift; sourceTree = "<group>"; };
-		ADEE40BC27FB4322007E70BC /* StatusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusVC.swift; sourceTree = "<group>"; };
+		AD6AD7EC2800AD2100E84A3D /* ConfigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureView.swift; sourceTree = "<group>"; };
+		AD6AD7EE2800AE6C00E84A3D /* ConfigureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureViewController.swift; sourceTree = "<group>"; };
+		AD89F1FF27FE0435000A2CE4 /* ChamadasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadasView.swift; sourceTree = "<group>"; };
+		AD89F20127FE12CE000A2CE4 /* ChamadasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadasViewController.swift; sourceTree = "<group>"; };
+		ADCCD5CB283EA0A600B00118 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		ADCCD5CF283EA5EA00B00118 /* ConversasCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasCoordinator.swift; sourceTree = "<group>"; };
+		ADCCD5D1283EA8A100B00118 /* CoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorViewModel.swift; sourceTree = "<group>"; };
+		ADCCD5D3283EAB4100B00118 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		ADCCD5D5283EAB6900B00118 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		ADCCD5D7283EABF500B00118 /* AddConversasCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConversasCoordinator.swift; sourceTree = "<group>"; };
+		ADCCD5D9283EB6E400B00118 /* StatusCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCoordinator.swift; sourceTree = "<group>"; };
+		ADCCD5DB283EBB2100B00118 /* ChamadasCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadasCoordinator.swift; sourceTree = "<group>"; };
+		ADCCD5DD283EBC1500B00118 /* CameraCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCoordinator.swift; sourceTree = "<group>"; };
+		ADCCD5DF283EBF3000B00118 /* ConfigureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureCoordinator.swift; sourceTree = "<group>"; };
+		ADCCD5E1283EC43400B00118 /* AddConversasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConversasView.swift; sourceTree = "<group>"; };
+		ADCCD5E3283EC52000B00118 /* AddConversasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConversasViewController.swift; sourceTree = "<group>"; };
+		ADEE40B927FB40D2007E70BC /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		ADEE40BC27FB4322007E70BC /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		ADEE40C227FB681C007E70BC /* StatusTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTableView.swift; sourceTree = "<group>"; };
 		ADEE40C527FB70E1007E70BC /* CustomStatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStatusTableViewCell.swift; sourceTree = "<group>"; };
+		ADFB0A442864D91700DE71EE /* StatusTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTableViewExtension.swift; sourceTree = "<group>"; };
+		ADFB0A462864D99E00DE71EE /* ChamadaTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamadaTableViewExtension.swift; sourceTree = "<group>"; };
+		ADFB0A482864D9E900DE71EE /* ConversasTableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasTableViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +162,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD108899284118FB00AAE973 /* AddConfigureViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD10889A2841194100AAE973 /* AddConfigureViewController.swift */,
+			);
+			path = AddConfigureViewController;
+			sourceTree = "<group>";
+		};
+		AD10889E28411DB900AAE973 /* AddConfigure */ = {
+			isa = PBXGroup;
+			children = (
+				AD1088972841184400AAE973 /* AddconfigureView.swift */,
+			);
+			path = AddConfigure;
+			sourceTree = "<group>";
+		};
+		AD10889F284156F300AAE973 /* Conect */ = {
+			isa = PBXGroup;
+			children = (
+				AD1088A02841572600AAE973 /* ConectView.swift */,
+			);
+			path = Conect;
+			sourceTree = "<group>";
+		};
+		AD1088A32841576100AAE973 /* AparelhosConectados */ = {
+			isa = PBXGroup;
+			children = (
+				AD1088A42841578900AAE973 /* ConectViewController.swift */,
+			);
+			path = AparelhosConectados;
+			sourceTree = "<group>";
+		};
 		AD1C7FEA27EB4945003526C8 = {
 			isa = PBXGroup;
 			children = (
 				AD1C7FF527EB4945003526C8 /* CriandoTelas */,
+				AD332E9B27FF0F1600E5E4C7 /* TableView's */,
+				AD332E9C27FF0F4800E5E4C7 /* Cell's */,
+				ADCCD5CD283EA5C300B00118 /* Coordinator */,
+				AD2CF0F2283D4FA000834F83 /* Constants */,
+				ADCCD5CA283EA08700B00118 /* Componentes */,
 				AD1C800C27EB4948003526C8 /* CriandoTelasTests */,
 				AD1C801627EB4948003526C8 /* CriandoTelasUITests */,
 				AD1C7FF427EB4945003526C8 /* Products */,
@@ -138,12 +223,13 @@
 			isa = PBXGroup;
 			children = (
 				ADEE40C427FB6A35007E70BC /* Delegate */,
-				ADEE40BB27FB4306007E70BC /* VC'S */,
-				AD1C802A27EB571B003526C8 /* Colors */,
+				ADEE40B827FB40AD007E70BC /* Views */,
+				AD10889E28411DB900AAE973 /* AddConfigure */,
+				AD10889F284156F300AAE973 /* Conect */,
+				ADEE40BB27FB4306007E70BC /* ViewControllers */,
 				AD1C7FFF27EB4947003526C8 /* Assets.xcassets */,
 				AD1C800127EB4947003526C8 /* LaunchScreen.storyboard */,
 				AD1C800427EB4947003526C8 /* Info.plist */,
-				ADEE40B827FB40AD007E70BC /* Screen */,
 			);
 			path = CriandoTelas;
 			sourceTree = "<group>";
@@ -165,21 +251,151 @@
 			path = CriandoTelasUITests;
 			sourceTree = "<group>";
 		};
-		AD1C802A27EB571B003526C8 /* Colors */ = {
+		AD20266F283FA1E9008844EB /* Status */ = {
 			isa = PBXGroup;
 			children = (
-				AD1C802827EB55B9003526C8 /* Colors.swift */,
-				AD1C802627EB4FBF003526C8 /* ColorExtension.swift */,
+				ADEE40B927FB40D2007E70BC /* StatusView.swift */,
 			);
-			path = Colors;
+			path = Status;
+			sourceTree = "<group>";
+		};
+		AD202670283FA1FF008844EB /* Chamadas */ = {
+			isa = PBXGroup;
+			children = (
+				AD89F1FF27FE0435000A2CE4 /* ChamadasView.swift */,
+			);
+			path = Chamadas;
+			sourceTree = "<group>";
+		};
+		AD202671283FA219008844EB /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				AD37974B28170F41004420E3 /* CameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		AD202672283FA246008844EB /* Conversas */ = {
+			isa = PBXGroup;
+			children = (
+				AD332EA127FF7E4100E5E4C7 /* ConversasView.swift */,
+			);
+			path = Conversas;
+			sourceTree = "<group>";
+		};
+		AD202673283FA25D008844EB /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				AD6AD7EC2800AD2100E84A3D /* ConfigureView.swift */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		AD202674283FA27E008844EB /* AddConversas */ = {
+			isa = PBXGroup;
+			children = (
+				ADCCD5E1283EC43400B00118 /* AddConversasView.swift */,
+			);
+			path = AddConversas;
+			sourceTree = "<group>";
+		};
+		AD202675283FA5F4008844EB /* StatusViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ADEE40BC27FB4322007E70BC /* StatusViewController.swift */,
+			);
+			path = StatusViewController;
+			sourceTree = "<group>";
+		};
+		AD202676283FA613008844EB /* ChamadasViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD89F20127FE12CE000A2CE4 /* ChamadasViewController.swift */,
+			);
+			path = ChamadasViewController;
+			sourceTree = "<group>";
+		};
+		AD202677283FA62F008844EB /* CameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD37974D281710C1004420E3 /* CameraViewController.swift */,
+			);
+			path = CameraViewController;
+			sourceTree = "<group>";
+		};
+		AD202678283FA642008844EB /* ConversasViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD332EA327FF82EB00E5E4C7 /* ConversasViewController.swift */,
+			);
+			path = ConversasViewController;
+			sourceTree = "<group>";
+		};
+		AD202679283FA65D008844EB /* ConfigureViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD6AD7EE2800AE6C00E84A3D /* ConfigureViewController.swift */,
+			);
+			path = ConfigureViewController;
+			sourceTree = "<group>";
+		};
+		AD20267A283FA6A4008844EB /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				AD1C7FFA27EB4945003526C8 /* HomeTabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		AD20267B283FA6BD008844EB /* StoriesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD3797532817313B004420E3 /* StoriesViewController.swift */,
+			);
+			path = StoriesViewController;
+			sourceTree = "<group>";
+		};
+		AD20267C283FA6DF008844EB /* AddConversasViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ADCCD5E3283EC52000B00118 /* AddConversasViewController.swift */,
+			);
+			path = AddConversasViewController;
+			sourceTree = "<group>";
+		};
+		AD202681283FF02D008844EB /* AddStatusViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD202682283FF052008844EB /* AddStatusViewController.swift */,
+			);
+			path = AddStatusViewController;
+			sourceTree = "<group>";
+		};
+		AD202684283FF094008844EB /* AddStatus */ = {
+			isa = PBXGroup;
+			children = (
+				AD202685283FF0CB008844EB /* AddStatusView.swift */,
+			);
+			path = AddStatus;
+			sourceTree = "<group>";
+		};
+		AD2CF0F2283D4FA000834F83 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AD2CF0F3283D4FC900834F83 /* ConstantsColor.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		AD332E9B27FF0F1600E5E4C7 /* TableView's */ = {
 			isa = PBXGroup;
 			children = (
 				ADEE40C227FB681C007E70BC /* StatusTableView.swift */,
+				ADFB0A442864D91700DE71EE /* StatusTableViewExtension.swift */,
 				AD332E9F27FF25D800E5E4C7 /* ChamadaTableView.swift */,
+				ADFB0A462864D99E00DE71EE /* ChamadaTableViewExtension.swift */,
 				AD6AD7EA28009EC400E84A3D /* ConversasTableView.swift */,
+				ADFB0A482864D9E900DE71EE /* ConversasTableViewExtension.swift */,
 			);
 			path = "TableView's";
 			sourceTree = "<group>";
@@ -190,37 +406,69 @@
 				ADEE40C527FB70E1007E70BC /* CustomStatusTableViewCell.swift */,
 				AD332E9D27FF1B3700E5E4C7 /* ChamadasCustomTableViemCell.swift */,
 				AD6AD7E828009CBB00E84A3D /* ConversasTableViewCell.swift */,
+				AD379751281730FC004420E3 /* AvatarCell.swift */,
 			);
 			path = "Cell's";
 			sourceTree = "<group>";
 		};
-		ADEE40B827FB40AD007E70BC /* Screen */ = {
+		ADCCD5CA283EA08700B00118 /* Componentes */ = {
 			isa = PBXGroup;
 			children = (
-				ADEE40B927FB40D2007E70BC /* StatusScreen.swift */,
-				AD89F1FF27FE0435000A2CE4 /* ChamadasScreen.swift */,
-				AD332EA127FF7E4100E5E4C7 /* ConversasScreen.swift */,
-				AD6AD7EC2800AD2100E84A3D /* ConfigureScreen.swift */,
-				AD37974B28170F41004420E3 /* CameraScreen.swift */,
-				AD379751281730FC004420E3 /* AvatarCell.swift */,
+				ADCCD5CB283EA0A600B00118 /* ButtonDefault.swift */,
+				AD20267D283FCACC008844EB /* ViewContollerDefault.swift */,
 			);
-			path = Screen;
+			path = Componentes;
 			sourceTree = "<group>";
 		};
-		ADEE40BB27FB4306007E70BC /* VC'S */ = {
+		ADCCD5CD283EA5C300B00118 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				ADEE40BC27FB4322007E70BC /* StatusVC.swift */,
-				AD1C7FFA27EB4945003526C8 /* TabBarController.swift */,
-				AD332EA327FF82EB00E5E4C7 /* ConversasVC.swift */,
-				AD89F20127FE12CE000A2CE4 /* ChamadasVC.swift */,
-				AD37974D281710C1004420E3 /* CameraVC.swift */,
-				AD3797532817313B004420E3 /* StoriesViewController.swift */,
-				AD6AD7EE2800AE6C00E84A3D /* ConfigureVC.swift */,
-				AD332E9B27FF0F1600E5E4C7 /* TableView's */,
-				AD332E9C27FF0F4800E5E4C7 /* Cell's */,
+				ADCCD5D1283EA8A100B00118 /* CoordinatorViewModel.swift */,
+				ADCCD5D3283EAB4100B00118 /* TabBarCoordinator.swift */,
+				ADCCD5D5283EAB6900B00118 /* Coordinator.swift */,
+				ADCCD5CF283EA5EA00B00118 /* ConversasCoordinator.swift */,
+				ADCCD5D7283EABF500B00118 /* AddConversasCoordinator.swift */,
+				ADCCD5D9283EB6E400B00118 /* StatusCoordinator.swift */,
+				AD20267F283FEFFA008844EB /* AddStatusCoordinator.swift */,
+				ADCCD5DB283EBB2100B00118 /* ChamadasCoordinator.swift */,
+				ADCCD5DD283EBC1500B00118 /* CameraCoordinator.swift */,
+				ADCCD5DF283EBF3000B00118 /* ConfigureCoordinator.swift */,
+				AD10889C28411B4700AAE973 /* AddConfigureCoordinator.swift */,
+				AD1088A628415A6600AAE973 /* ConectCoordinator.swift */,
 			);
-			path = "VC'S";
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		ADEE40B827FB40AD007E70BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD20266F283FA1E9008844EB /* Status */,
+				AD202684283FF094008844EB /* AddStatus */,
+				AD202670283FA1FF008844EB /* Chamadas */,
+				AD202671283FA219008844EB /* Camera */,
+				AD202672283FA246008844EB /* Conversas */,
+				AD202674283FA27E008844EB /* AddConversas */,
+				AD202673283FA25D008844EB /* Configure */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADEE40BB27FB4306007E70BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD202681283FF02D008844EB /* AddStatusViewController */,
+				AD202675283FA5F4008844EB /* StatusViewController */,
+				AD202676283FA613008844EB /* ChamadasViewController */,
+				AD202677283FA62F008844EB /* CameraViewController */,
+				AD202678283FA642008844EB /* ConversasViewController */,
+				AD20267C283FA6DF008844EB /* AddConversasViewController */,
+				AD202679283FA65D008844EB /* ConfigureViewController */,
+				AD108899284118FB00AAE973 /* AddConfigureViewController */,
+				AD1088A32841576100AAE973 /* AparelhosConectados */,
+				AD20267A283FA6A4008844EB /* TabBarController */,
+				AD20267B283FA6BD008844EB /* StoriesViewController */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		ADEE40C427FB6A35007E70BC /* Delegate */ = {
@@ -362,29 +610,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD332EA427FF82EB00E5E4C7 /* ConversasVC.swift in Sources */,
+				ADCCD5D8283EABF500B00118 /* AddConversasCoordinator.swift in Sources */,
+				AD10889D28411B4700AAE973 /* AddConfigureCoordinator.swift in Sources */,
+				AD332EA427FF82EB00E5E4C7 /* ConversasViewController.swift in Sources */,
 				ADEE40C627FB70E1007E70BC /* CustomStatusTableViewCell.swift in Sources */,
-				AD89F20227FE12CE000A2CE4 /* ChamadasVC.swift in Sources */,
-				AD332EA227FF7E4100E5E4C7 /* ConversasScreen.swift in Sources */,
+				AD89F20227FE12CE000A2CE4 /* ChamadasViewController.swift in Sources */,
+				AD2CF0F4283D4FC900834F83 /* ConstantsColor.swift in Sources */,
+				AD1088A52841578900AAE973 /* ConectViewController.swift in Sources */,
+				AD332EA227FF7E4100E5E4C7 /* ConversasView.swift in Sources */,
+				AD1088A12841572600AAE973 /* ConectView.swift in Sources */,
+				ADFB0A492864D9E900DE71EE /* ConversasTableViewExtension.swift in Sources */,
 				AD332E9E27FF1B3700E5E4C7 /* ChamadasCustomTableViemCell.swift in Sources */,
 				ADEE40C327FB681C007E70BC /* StatusTableView.swift in Sources */,
+				ADCCD5CC283EA0A600B00118 /* ButtonDefault.swift in Sources */,
 				AD379752281730FC004420E3 /* AvatarCell.swift in Sources */,
-				AD1C7FFB27EB4945003526C8 /* TabBarController.swift in Sources */,
-				AD1C802927EB55B9003526C8 /* Colors.swift in Sources */,
-				AD6AD7ED2800AD2100E84A3D /* ConfigureScreen.swift in Sources */,
+				AD10889B2841194100AAE973 /* AddConfigureViewController.swift in Sources */,
+				ADCCD5DC283EBB2100B00118 /* ChamadasCoordinator.swift in Sources */,
+				AD1C7FFB27EB4945003526C8 /* HomeTabBarController.swift in Sources */,
+				ADCCD5D4283EAB4100B00118 /* TabBarCoordinator.swift in Sources */,
+				ADFB0A472864D99E00DE71EE /* ChamadaTableViewExtension.swift in Sources */,
+				AD202683283FF052008844EB /* AddStatusViewController.swift in Sources */,
+				AD1088A728415A6600AAE973 /* ConectCoordinator.swift in Sources */,
+				ADCCD5DE283EBC1500B00118 /* CameraCoordinator.swift in Sources */,
+				AD20267E283FCACC008844EB /* ViewContollerDefault.swift in Sources */,
+				AD6AD7ED2800AD2100E84A3D /* ConfigureView.swift in Sources */,
+				ADCCD5D2283EA8A100B00118 /* CoordinatorViewModel.swift in Sources */,
 				AD1C7FF727EB4945003526C8 /* AppDelegate.swift in Sources */,
 				AD1C7FF927EB4945003526C8 /* SceneDelegate.swift in Sources */,
-				AD1C802727EB4FBF003526C8 /* ColorExtension.swift in Sources */,
+				AD1088982841184400AAE973 /* AddconfigureView.swift in Sources */,
 				AD332EA027FF25D800E5E4C7 /* ChamadaTableView.swift in Sources */,
-				AD89F20027FE0435000A2CE4 /* ChamadasScreen.swift in Sources */,
-				AD6AD7EF2800AE6C00E84A3D /* ConfigureVC.swift in Sources */,
-				ADEE40BD27FB4322007E70BC /* StatusVC.swift in Sources */,
+				ADCCD5E0283EBF3000B00118 /* ConfigureCoordinator.swift in Sources */,
+				ADCCD5D6283EAB6900B00118 /* Coordinator.swift in Sources */,
+				AD89F20027FE0435000A2CE4 /* ChamadasView.swift in Sources */,
+				ADCCD5E2283EC43400B00118 /* AddConversasView.swift in Sources */,
+				ADFB0A452864D91700DE71EE /* StatusTableViewExtension.swift in Sources */,
+				ADCCD5D0283EA5EA00B00118 /* ConversasCoordinator.swift in Sources */,
+				AD6AD7EF2800AE6C00E84A3D /* ConfigureViewController.swift in Sources */,
+				ADEE40BD27FB4322007E70BC /* StatusViewController.swift in Sources */,
 				AD3797542817313C004420E3 /* StoriesViewController.swift in Sources */,
-				AD37974E281710C1004420E3 /* CameraVC.swift in Sources */,
+				AD37974E281710C1004420E3 /* CameraViewController.swift in Sources */,
+				ADCCD5DA283EB6E400B00118 /* StatusCoordinator.swift in Sources */,
+				AD202680283FEFFA008844EB /* AddStatusCoordinator.swift in Sources */,
 				AD6AD7EB28009EC400E84A3D /* ConversasTableView.swift in Sources */,
 				AD6AD7E928009CBB00E84A3D /* ConversasTableViewCell.swift in Sources */,
-				AD37974C28170F41004420E3 /* CameraScreen.swift in Sources */,
-				ADEE40BA27FB40D2007E70BC /* StatusScreen.swift in Sources */,
+				AD202686283FF0CB008844EB /* AddStatusView.swift in Sources */,
+				AD37974C28170F41004420E3 /* CameraView.swift in Sources */,
+				ADCCD5E4283EC52000B00118 /* AddConversasViewController.swift in Sources */,
+				ADEE40BA27FB40D2007E70BC /* StatusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
